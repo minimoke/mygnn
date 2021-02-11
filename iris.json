@@ -1,0 +1,17 @@
+{
+    "datasetname": "iris",
+    "fname":  "/sd1/Datasets/Kaggle/Iris/Iris.csv",
+    "csvheader": true,
+	"idcol": true,
+	"labelcol": 5,
+    "inputs" : 4,
+    "hidden" : 12,
+    "outputs": 3,
+	"learningrate": 0.8,
+    "epochs": 100000,
+    "label" : {
+        "Iris-setosa":     [1, 0, 0],
+        "Iris-versicolor": [0, 1, 0],
+        "Iris-virginica":  [0, 0, 1]
+    }
+}
